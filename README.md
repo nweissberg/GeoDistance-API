@@ -20,14 +20,14 @@
  Servidor em http://127.0.0.1:4000/
  ```
 
- Caso queira mudar a porta ou o endereço de host é preciso configurar um arquivo .env;</br>
- A porta default da api é '4000' e o host é '127.0.0.1'.</br>
+ Caso queira mudar a porta ou o endereço de host é preciso configurar um arquivo <b>.env</b>;</br>
+ A porta default da api é <b>4000</b> e o host é <b>127.0.0.1</b>;</br>
  O valor da API_KEY deve ser sua chave do Google Cloud <a href='https://developers.google.com/maps/documentation/geocoding/get-api-key'>Get API key</a>
 
  ```
 PORT=4000
 HOST='127.0.0.1'
-API_KEY=''
+API_KEY='SUA_API_KEY'
  ```
 
 # Como usar a API
@@ -47,4 +47,5 @@ API_KEY=''
  ```
 
  # Possíveis erros
-  
+  <h3 style='color:red'>Inserir três ou mais endereços.</h3>
+  A API requer 3 ou mais endereços para realizar a verificação das distâncias entre os endereços.
