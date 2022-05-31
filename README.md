@@ -43,139 +43,139 @@ API_KEY='SUA_API_KEY'
  ```
  Resultado da chamada com os valores acima:
  ```json
- [
-	{
-		"id": "ChIJQwb6SslZzpQR_xww3mQVRF8",
-		"address": "Av. Paulista, 1578 - Bela Vista, São Paulo - SP, 01310-200, Brazil",
-		"location": {
-			"lat": -23.5615171,
-			"lng": -46.655961
-		},
-		"distances": [
-			{
-				"id": "ChIJ44xMEm9YzpQRJZZoJCq76I0",
-				"address": "Bom Retiro, São Paulo - State of São Paulo, Brazil",
-				"distance": 4277.70161219328
-			},
-			{
-				"id": "ChIJAxbLthL2zpQR8EnliIDdhbI",
-				"address": "Av. Dr. Antônio Maria Laet, 100 - Vila Gustavo, São Paulo - SP, 02240-000, Brazil",
-				"distance": 10250.65577543856
-			}
-		],
-		"near": [
-			{
-				"id": "ChIJ44xMEm9YzpQRJZZoJCq76I0",
-				"address": "Bom Retiro, São Paulo - State of São Paulo, Brazil",
-				"distance": 4277.70161219328
-			},
-			{
-				"id": "ChIJAxbLthL2zpQR8EnliIDdhbI",
-				"address": "Av. Dr. Antônio Maria Laet, 100 - Vila Gustavo, São Paulo - SP, 02240-000, Brazil",
-				"distance": 10250.65577543856
-			}
-		],
-		"far": [
-			{
-				"id": "ChIJAxbLthL2zpQR8EnliIDdhbI",
-				"address": "Av. Dr. Antônio Maria Laet, 100 - Vila Gustavo, São Paulo - SP, 02240-000, Brazil",
-				"distance": 10250.65577543856
-			},
-			{
-				"id": "ChIJ44xMEm9YzpQRJZZoJCq76I0",
-				"address": "Bom Retiro, São Paulo - State of São Paulo, Brazil",
-				"distance": 4277.70161219328
-			}
-		]
-	},
-	{
-		"id": "ChIJ44xMEm9YzpQRJZZoJCq76I0",
-		"address": "Bom Retiro, São Paulo - State of São Paulo, Brazil",
-		"location": {
-			"lat": -23.5256699,
-			"lng": -46.64070599999999
-		},
-		"distances": [
-			{
-				"id": "ChIJQwb6SslZzpQR_xww3mQVRF8",
-				"address": "Av. Paulista, 1578 - Bela Vista, São Paulo - SP, 01310-200, Brazil",
-				"distance": 4277.699550778414
-			},
-			{
-				"id": "ChIJAxbLthL2zpQR8EnliIDdhbI",
-				"address": "Av. Dr. Antônio Maria Laet, 100 - Vila Gustavo, São Paulo - SP, 02240-000, Brazil",
-				"distance": 6052.730060490377
-			}
-		],
-		"near": [
-			{
-				"id": "ChIJQwb6SslZzpQR_xww3mQVRF8",
-				"address": "Av. Paulista, 1578 - Bela Vista, São Paulo - SP, 01310-200, Brazil",
-				"distance": 4277.699550778414
-			},
-			{
-				"id": "ChIJAxbLthL2zpQR8EnliIDdhbI",
-				"address": "Av. Dr. Antônio Maria Laet, 100 - Vila Gustavo, São Paulo - SP, 02240-000, Brazil",
-				"distance": 6052.730060490377
-			}
-		],
-		"far": [
-			{
-				"id": "ChIJAxbLthL2zpQR8EnliIDdhbI",
-				"address": "Av. Dr. Antônio Maria Laet, 100 - Vila Gustavo, São Paulo - SP, 02240-000, Brazil",
-				"distance": 6052.730060490377
-			},
-			{
-				"id": "ChIJQwb6SslZzpQR_xww3mQVRF8",
-				"address": "Av. Paulista, 1578 - Bela Vista, São Paulo - SP, 01310-200, Brazil",
-				"distance": 4277.699550778414
-			}
-		]
-	},
-	{
-		"id": "ChIJAxbLthL2zpQR8EnliIDdhbI",
-		"address": "Av. Dr. Antônio Maria Laet, 100 - Vila Gustavo, São Paulo - SP, 02240-000, Brazil",
-		"location": {
-			"lat": -23.4808342,
-			"lng": -46.6038497
-		},
-		"distances": [
-			{
-				"id": "ChIJ44xMEm9YzpQRJZZoJCq76I0",
-				"address": "Bom Retiro, São Paulo - State of São Paulo, Brazil",
-				"distance": 6052.422471491585
-			},
-			{
-				"id": "ChIJQwb6SslZzpQR_xww3mQVRF8",
-				"address": "Av. Paulista, 1578 - Bela Vista, São Paulo - SP, 01310-200, Brazil",
-				"distance": 10250.282747873394
-			}
-		],
-		"near": [
-			{
-				"id": "ChIJ44xMEm9YzpQRJZZoJCq76I0",
-				"address": "Bom Retiro, São Paulo - State of São Paulo, Brazil",
-				"distance": 6052.422471491585
-			},
-			{
-				"id": "ChIJQwb6SslZzpQR_xww3mQVRF8",
-				"address": "Av. Paulista, 1578 - Bela Vista, São Paulo - SP, 01310-200, Brazil",
-				"distance": 10250.282747873394
-			}
-		],
-		"far": [
-			{
-				"id": "ChIJQwb6SslZzpQR_xww3mQVRF8",
-				"address": "Av. Paulista, 1578 - Bela Vista, São Paulo - SP, 01310-200, Brazil",
-				"distance": 10250.282747873394
-			},
-			{
-				"id": "ChIJ44xMEm9YzpQRJZZoJCq76I0",
-				"address": "Bom Retiro, São Paulo - State of São Paulo, Brazil",
-				"distance": 6052.422471491585
-			}
-		]
-	}
+  [
+  {
+    "id": "ChIJQwb6SslZzpQR_xww3mQVRF8",
+    "address": "Av. Paulista, 1578 - Bela Vista, São Paulo - SP, 01310-200, Brazil",
+    "location": {
+      "lat": -23.5615171,
+      "lng": -46.655961
+    },
+    "distances": [
+      {
+        "id": "ChIJ44xMEm9YzpQRJZZoJCq76I0",
+        "address": "Bom Retiro, São Paulo - State of São Paulo, Brazil",
+        "distance": 4277.70161219328
+      },
+      {
+        "id": "ChIJAxbLthL2zpQR8EnliIDdhbI",
+        "address": "Av. Dr. Antônio Maria Laet, 100 - Vila Gustavo, São Paulo - SP, 02240-000, Brazil",
+        "distance": 10250.65577543856
+      }
+    ],
+    "near": [
+      {
+        "id": "ChIJ44xMEm9YzpQRJZZoJCq76I0",
+        "address": "Bom Retiro, São Paulo - State of São Paulo, Brazil",
+        "distance": 4277.70161219328
+      },
+      {
+        "id": "ChIJAxbLthL2zpQR8EnliIDdhbI",
+        "address": "Av. Dr. Antônio Maria Laet, 100 - Vila Gustavo, São Paulo - SP, 02240-000, Brazil",
+        "distance": 10250.65577543856
+      }
+    ],
+    "far": [
+      {
+        "id": "ChIJAxbLthL2zpQR8EnliIDdhbI",
+        "address": "Av. Dr. Antônio Maria Laet, 100 - Vila Gustavo, São Paulo - SP, 02240-000, Brazil",
+        "distance": 10250.65577543856
+      },
+      {
+        "id": "ChIJ44xMEm9YzpQRJZZoJCq76I0",
+        "address": "Bom Retiro, São Paulo - State of São Paulo, Brazil",
+        "distance": 4277.70161219328
+      }
+    ]
+  },
+  {
+    "id": "ChIJ44xMEm9YzpQRJZZoJCq76I0",
+    "address": "Bom Retiro, São Paulo - State of São Paulo, Brazil",
+    "location": {
+      "lat": -23.5256699,
+      "lng": -46.64070599999999
+    },
+    "distances": [
+      {
+        "id": "ChIJQwb6SslZzpQR_xww3mQVRF8",
+        "address": "Av. Paulista, 1578 - Bela Vista, São Paulo - SP, 01310-200, Brazil",
+        "distance": 4277.699550778414
+      },
+      {
+        "id": "ChIJAxbLthL2zpQR8EnliIDdhbI",
+        "address": "Av. Dr. Antônio Maria Laet, 100 - Vila Gustavo, São Paulo - SP, 02240-000, Brazil",
+        "distance": 6052.730060490377
+      }
+    ],
+    "near": [
+      {
+        "id": "ChIJQwb6SslZzpQR_xww3mQVRF8",
+        "address": "Av. Paulista, 1578 - Bela Vista, São Paulo - SP, 01310-200, Brazil",
+        "distance": 4277.699550778414
+      },
+      {
+        "id": "ChIJAxbLthL2zpQR8EnliIDdhbI",
+        "address": "Av. Dr. Antônio Maria Laet, 100 - Vila Gustavo, São Paulo - SP, 02240-000, Brazil",
+        "distance": 6052.730060490377
+      }
+    ],
+    "far": [
+      {
+        "id": "ChIJAxbLthL2zpQR8EnliIDdhbI",
+        "address": "Av. Dr. Antônio Maria Laet, 100 - Vila Gustavo, São Paulo - SP, 02240-000, Brazil",
+        "distance": 6052.730060490377
+      },
+      {
+        "id": "ChIJQwb6SslZzpQR_xww3mQVRF8",
+        "address": "Av. Paulista, 1578 - Bela Vista, São Paulo - SP, 01310-200, Brazil",
+        "distance": 4277.699550778414
+      }
+    ]
+  },
+  {
+    "id": "ChIJAxbLthL2zpQR8EnliIDdhbI",
+    "address": "Av. Dr. Antônio Maria Laet, 100 - Vila Gustavo, São Paulo - SP, 02240-000, Brazil",
+    "location": {
+      "lat": -23.4808342,
+      "lng": -46.6038497
+    },
+    "distances": [
+      {
+        "id": "ChIJ44xMEm9YzpQRJZZoJCq76I0",
+        "address": "Bom Retiro, São Paulo - State of São Paulo, Brazil",
+        "distance": 6052.422471491585
+      },
+      {
+        "id": "ChIJQwb6SslZzpQR_xww3mQVRF8",
+        "address": "Av. Paulista, 1578 - Bela Vista, São Paulo - SP, 01310-200, Brazil",
+        "distance": 10250.282747873394
+      }
+    ],
+    "near": [
+      {
+        "id": "ChIJ44xMEm9YzpQRJZZoJCq76I0",
+        "address": "Bom Retiro, São Paulo - State of São Paulo, Brazil",
+        "distance": 6052.422471491585
+      },
+      {
+        "id": "ChIJQwb6SslZzpQR_xww3mQVRF8",
+        "address": "Av. Paulista, 1578 - Bela Vista, São Paulo - SP, 01310-200, Brazil",
+        "distance": 10250.282747873394
+      }
+    ],
+    "far": [
+      {
+        "id": "ChIJQwb6SslZzpQR_xww3mQVRF8",
+        "address": "Av. Paulista, 1578 - Bela Vista, São Paulo - SP, 01310-200, Brazil",
+        "distance": 10250.282747873394
+      },
+      {
+        "id": "ChIJ44xMEm9YzpQRJZZoJCq76I0",
+        "address": "Bom Retiro, São Paulo - State of São Paulo, Brazil",
+        "distance": 6052.422471491585
+      }
+    ]
+  }
 ]
  ```
  # Possíveis erros
