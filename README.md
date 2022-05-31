@@ -43,7 +43,7 @@ API_KEY='SUA_API_KEY'
  ```
  Resultado da chamada com os valores acima:
  ```json
-  [
+[
   {
     "id": "ChIJQwb6SslZzpQR_xww3mQVRF8",
     "address": "Av. Paulista, 1578 - Bela Vista, São Paulo - SP, 01310-200, Brazil",
