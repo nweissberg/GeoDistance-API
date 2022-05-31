@@ -47,5 +47,7 @@ API_KEY='SUA_API_KEY'
  ```
 
  # Possíveis erros
-  <h3 style='color:red'>Inserir três ou mais endereços.</h3>
-  A API requer 3 ou mais endereços para realizar a verificação das distâncias entre os endereços.
+  <h4 style='color:#44AA00;'><i>Inserir três ou mais endereços.</i></h4>
+  <pre style='tab-size: 2;'>Essa API requer 3 ou mais endereços para realizar a verificação das distâncias entre os endereços.</pre>
+  <h4 style='color:#44AA00'><i>The provided API key is invalid.</i></h4>
+  <pre style='tab-size: 2;'>Neste caso a chave da api que está usando não é uma chave válida para o usar o serviço de Geocoding do Google Cloud, para ativar o serviço entre no <a href='https://console.cloud.google.com/google/maps-apis/api-list'>Cloud Platform</a> selecione um projeto e adicione o <i>Geocoding API</i></pre>
